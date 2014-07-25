@@ -612,6 +612,7 @@
 			error   : function (message, wait) { _alertify.log(message, "error", wait); return this; },
 			set     : function (args) { _alertify.set(args); },
 			labels  : _alertify.labels,
+			dialogs : dialogs,
 			debug   : _alertify.handleErrors
 		};
 	};
